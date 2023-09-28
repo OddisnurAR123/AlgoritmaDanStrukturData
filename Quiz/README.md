@@ -94,4 +94,4 @@ Berikut adalah penjelasan alur kerja program:
 <img src="Gambar/Contoh3(2).png">
 
 ## SWAFOTO
-<img src="Gambar/swafoto.png">
+<img src="Gambar/Swafoto.png">
