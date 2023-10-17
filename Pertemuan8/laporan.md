@@ -3,7 +3,7 @@ NIM: 2241760015
 
 Nama: Oddis Nur Alifathur Razaaq
 
-Kelas: SIB-2C
+Kelas: SIB - 2C
 
 # Jobsheet 9
 ## 9.2 Praktikum 1
