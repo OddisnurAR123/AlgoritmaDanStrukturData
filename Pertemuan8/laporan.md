@@ -3,7 +3,7 @@ NIM: 2241760015
 
 Nama: Oddis Nur Alifathur Razaaq
 
-Kelas: SIB-2C
+Kelas: SIB - 2C
 
 # Jobsheet 9
 ## 9.2 Praktikum 1
@@ -26,7 +26,7 @@ Kelas: SIB-2C
 
 ### 9.2.2 Verifikasi Hasil Percobaan
 
-<img src="gambar/output SLLMain.png">
+<img src="gambar/Output SLLMain.png">
 
 
 ### 9.2.3 Pertanyaan
@@ -81,7 +81,7 @@ Kode if (temp.next.next == null) tail = temp.next; digunakan untuk memeriksa apa
 
 ### 9.3.2 Verifikasi Hasil Percobaan
 
-<img src="gambar/output SLLMain(terbaru).png">
+<img src="gambar/Output SLLMain(terbaru).png">
 
 
 ### 9.3.3 Pertanyaan
