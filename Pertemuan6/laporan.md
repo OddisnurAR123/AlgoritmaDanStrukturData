@@ -90,7 +90,7 @@ Jawab:
 
 - 
 
-<img src="gambar/Sort(DESC).png">
+<img src="gambar/sort(DESC).png">
 
 - 
 
@@ -118,7 +118,7 @@ Jawab:
 
 - Hasil sebelum sorting
 
-<img src="gambar/Hasil MainMahasiswa.png">
+<img src="gambar/Hasil mainMahasiswa.png">
 
 - Main mahasiswa setelah ditambahi sorting DESC berdasarkan ipk
 
