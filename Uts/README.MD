@@ -6,16 +6,32 @@ Nama: Oddis Nur Alifathur Razaaq
 Kelas: SIB-2C
 
 ### Soal Ujian
-Buatlah sebuah sistem informasi Antrian pembeli pada resto Royal Delish dengan menggunakan konsep queue. Pada sistem informasi tersebut wajib ada kelas Pembeli dan kelas Pesanan.
 
-Pembeli
-namaPembeli : String
-NoHp : String
-Pembeli(String b, String c)
 
-Pesanan
-kodePesanan: int
-namaPesanan: String
-harga : int
-Pesanan(int a, String b, int
-d)
+Kode
+
+- Class Pembeli21
+
+<img src="gambar/Pembeli.png">
+
+- Class Pesanan21
+
+<img src="gambar/Pesanan.png">
+
+- Class Queue21
+
+<img src="gambar/Queue.png">
+
+- Class MainQueue21
+
+<img src="gambar/Main1.png">
+
+<img src="gambar/Main2.png">
+
+<img src="gambar/Main3.png">
+
+Output
+
+<img src="gambar/Output1.png">
+
+<img src="gambar/Output2.png">
