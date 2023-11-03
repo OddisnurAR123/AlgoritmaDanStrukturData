@@ -36,6 +36,24 @@ public class DoublyLinkedList {
         size++;
     }
 
+    public void addLastFilm(int id, String judul, double rating) {
+        NodeFilm newFilm = new NodeFilm(id, judul, rating);
+    
+        if (isEmpty()) {
+            head = newFilm;
+        } else {
+            NodeFilm current = head;
+            while (current.next != null) {
+                current = current.next;
+            }
+            newFilm.prev = current;
+            current.next = newFilm;
+        }
+    
+        size++;
+    }
+    
+
     public void addFilmAtIndex(int index, int id, String judul, double rating) {
         if (index < 0 || index > size) {
             System.out.println("Index tidak valid.");

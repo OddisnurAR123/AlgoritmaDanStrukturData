@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
     static void menu() {
         System.out.println("==========================================");
-        System.out.println("         PROGRAM DAFTAR FILM             ");
+        System.out.println("           DAFTAR FILM LAYAR LEBAR        ");
         System.out.println("==========================================");
         System.out.println("1. Tambah Data Awal");
         System.out.println("2. Tambah Data Akhir");
@@ -56,7 +56,7 @@ public class Main {
                     String judul2 = oddis.nextLine();
                     System.out.print("Rating: ");
                     double rating2 = oddis.nextDouble();
-                    filmList.addFilmAtIndex(filmList.size(), id2, judul2, rating2);
+                    filmList.addLastFilm(id2, judul2, rating2);
                     System.out.println("Film berhasil ditambahkan di akhir.");
                     break;
                 case 3:
@@ -70,7 +70,7 @@ public class Main {
                     String judul3 = oddis.nextLine();
                     System.out.print("Rating: ");
                     double rating3 = oddis.nextDouble();
-                    System.out.print("Data film ini akan masuk di urutan ke -: ");
+                    System.out.print("Data film ini akan masuk di urutan ke - ");
                     int index = oddis.nextInt();
                     filmList.addFilmAtIndex(index, id3, judul3, rating3);
                     System.out.println("Film berhasil ditambahkan pada index tertentu.");
