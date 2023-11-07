@@ -30,8 +30,8 @@ public class BinaryTreeMain {
 
         // Tugas 2 menambahkan method untuk menampilkan nilai paling kecil dan yang paling besar yang ada di dalam tree
         System.out.println("---------------------------------");
-        int min = bt.findMinimum(bt.root);
-        int max = bt.findMaximum(bt.root);
+        int min = bt.findMinimum();
+        int max = bt.findMaximum();
 
         System.out.println("Nilai paling kecil: " + min);
         System.out.println("Nilai paling besar: " + max);

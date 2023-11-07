@@ -187,35 +187,29 @@ public class BinaryTree {
     }
 
     // Tugas 2 menambahkan method untuk menampilkan nilai paling kecil dan yang paling besar yang ada di dalam tree
-    public int findMinimum(Node node) {
-        if (node == null) {
-        return Integer.MAX_VALUE;
-        }
-        int current = node.data;
-        int currentLeft = findMinimum(node.left);
-        
-        int currentRight = findMinimum(node.right);
-        if (currentLeft < current)
-        current = currentLeft;
-        if (currentRight < current)
-        current = currentRight;
-        return current;
-        }
-
-    public int findMaximum(Node node) {
-        if (node == null) {
+    public int findMinimum() {
+        if (root == null) {
+            System.out.println("Tree masih kosong!");
             return Integer.MIN_VALUE;
         }
-        int current = node.data;
-        int currentLeft = findMaximum(node.left);
-        int currentRight = findMaximum(node.right);
-        
-        if (currentLeft > current)
-            current = currentLeft;
-        if (currentRight > current)
-            current = currentRight;
-        return current;
+        Node current = root;
+        while(current.left != null){
+            current = current.left;
         }
+        return current.data;
+    }
+
+    public int findMaximum() {
+        if (root == null) {
+            System.out.println("Tree masih kosong!");
+            return Integer.MAX_VALUE;
+        }
+        Node current = root;
+        while(current.right != null){
+            current = current.right;
+        }
+        return current.data;
+    }
 
     // Tugas 3 menambahkan method untuk menampilkan data yang ada di leaf
     void printLeaf(Node root) {
