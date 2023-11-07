@@ -213,15 +213,15 @@ public class BinaryTree {
 
     // Tugas 3 menambahkan method untuk menampilkan data yang ada di leaf
     void printLeaf(Node root) {
-        if (isEmpty())
-        return;
-        if (root.left == null && root.right == null) {
-            System.out.print(root.data + " ");
+        if (root == null) {
             return;
         }
-        if (root.left != null)
+        
+        if (root.left == null && root.right == null) {
+            System.out.print(root.data + " ");
+        }
+        
         printLeaf(root.left);
-        if (root.right != null)
         printLeaf(root.right);
     }
 
