@@ -185,29 +185,29 @@ Jawab:
 
     - Mengubah tipe data vertex pada class graph
 
-    <img src="gambarTugas/GraphTugasNo5(1).png">
+    <img src="gambarTugas/GraphTugasNo4(1).png">
 
-    <img src="gambarTugas/GraphTugasNo5(2).png">
+    <img src="gambarTugas/GraphTugasNo4(2).png">
 
     - Main
 
-    <img src="gambarTugas/GraphMainTugasNo5.png">
+    <img src="gambarTugas/GraphMainTugasNo4.png">
 
     - Hasil
 
-    <img src="gambarTugas/HasilTugasNo5(graphMain).png">
+    <img src="gambarTugas/HasilTugasNo4(graphMain).png">
 
 
 - Praktikum 2
 
     - Mengubah tipe data vertex pada class graphArray
 
-    <img src="gambarTugas/graphArrayTugasNo5.png">
+    <img src="gambarTugas/graphArrayTugasNo4.png">
 
     - Main
 
-    <img src="gambarTugas/graphArrayMainTugasNo5.png">
+    <img src="gambarTugas/graphArrayMainTugasNo4.png">
 
     - Hasil
 
-    <img src="gambarTugas/HasilTugasNo5(Array).png">
+    <img src="gambarTugas/HasilTugasNo4(Array).png">
