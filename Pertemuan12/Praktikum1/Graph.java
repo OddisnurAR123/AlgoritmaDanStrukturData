@@ -1,7 +1,7 @@
 package Pertemuan12.Praktikum1;
 
 public class Graph <T> {
-    // Tugas Nomor 5 mengubah tipe data vertex dari Integer menjadi tipe generic
+    // Tugas Nomor 4 mengubah tipe data vertex dari Integer menjadi tipe generic
     T[] vertex;
     /*int vertex;*/
     LinkedList list[];

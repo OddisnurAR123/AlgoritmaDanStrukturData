@@ -103,7 +103,7 @@ public class GraphMain {
         graph.removeEdge(1,2);
         graph.printGraph();*/
 
-        // Tugas Nomor 5 mengubah tipe data vertex dari Integer menjadi tipe generic
+        // Tugas Nomor 4 mengubah tipe data vertex dari Integer menjadi tipe generic
         Scanner oddis = new Scanner(System.in);
         System.out.print("Masukkan Vertex\t: ");
         String[] vertex = new String[oddis.nextInt()];
