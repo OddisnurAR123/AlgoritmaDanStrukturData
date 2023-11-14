@@ -120,7 +120,7 @@ public class GraphMain {
         int edge = oddis.nextInt();
 
         int menu;
-        do{
+        do {
             System.out.println("=================================================");
             System.out.println("                 Pilihan Type Graph              ");
             System.out.println("=================================================");
@@ -130,20 +130,21 @@ public class GraphMain {
             System.out.print("Pilih Type Graph: ");
             menu = oddis.nextInt();
 
-            System.out.println("Masukkan Edge: <from> <to>");
-            if(menu == 1) {
+            if (menu == 1) {
+                System.out.println("Masukkan Edge: <from> <to>");
                 for (int i = 0; i < edge; i++) {
-                graph.graphType(oddis.nextInt(), oddis.nextInt());
+                    graph.addEdge(oddis.nextInt(), oddis.nextInt());
                 }
                 graph.printGraph();
-            }else if (menu == 2) {
-                for (int i = 0; i < edge; i++) {;
-                graph.addEdge(oddis.nextInt(), oddis.nextInt());
+                break;
+            } else if (menu == 2) {
+                System.out.println("Masukkan Edge: <from> <to>");
+                for (int i = 0; i < edge; i++) {
+                    graph.addEdge(oddis.nextInt(), oddis.nextInt());
+                    graph.addEdge(oddis.nextInt(), oddis.nextInt());
                 }
                 graph.printGraph();
             }
         } while (menu == 1 || menu == 2);
-
-        graph.printGraph();
     }
 }

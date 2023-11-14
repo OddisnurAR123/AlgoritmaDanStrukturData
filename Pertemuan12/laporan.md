@@ -189,6 +189,9 @@ Jawab:
 
     - Hasil
 
+    <img src="gambarTugas/HasilTugasNo5(graphMain).png">
+
+
 - Praktikum 2
 
     - Mengubah tipe data vertex pada class graphArray
