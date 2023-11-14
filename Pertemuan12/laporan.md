@@ -38,12 +38,12 @@ Kelas: SIB - 2C
 
 - Hasil running pada langkah ke-11
 
-<img src="Praktikum1/gambar/Output(langkah11).png">
+<img src="Praktikum1/gambar/Output(Langkah11).png">
 
 - Hasil running pada langkah ke-13
 
 
-<img src="Praktikum1/gambar/Output(langkah13).png">
+<img src="Praktikum1/gambar/Output(Langkah13).png">
 
 
 ### Pertanyaan
@@ -73,7 +73,8 @@ Jawab: Saat akan melakukan penghapusan suatu edge pada graph, prev pointer dapat
 
 5. Kenapa pada praktikum 12.2 langkah ke-12 untuk menghapus path yang bukan merupakan lintasan pertama kali menghasilkan output yang salah ?  Bagaimana solusinya ?
 
-Jawab: 
+Jawab: Tidak salah, hanya saja pada praktikum langkah ke-12 yang dipanggil adalah graph.removeEdge(1, 2); bukan
+graph.removeEdge(1, 3); Jadi, kesalahannya pada soal bukan pada output.
 
 
 ## Praktikum 2
