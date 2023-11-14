@@ -129,7 +129,4 @@ public class Graph <T> {
         }
         System.out.println(" ");
     }    
-
-    public void graphType(int nextInt, int nextInt2) {
-    }
 }
