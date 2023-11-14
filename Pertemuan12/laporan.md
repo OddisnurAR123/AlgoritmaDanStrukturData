@@ -185,7 +185,13 @@ Jawab:
 
     - Mengubah tipe data vertex pada class graph
 
+    <img src="gambarTugas/GraphTugasNo5(1).png">
+
+    <img src="gambarTugas/GraphTugasNo5(2).png">
+
     - Main
+
+    <img src="gambarTugas/GraphMainTugasNo5.png">
 
     - Hasil
 
