@@ -19,7 +19,7 @@ public class MahasiswaMain {
         for (int i=0; i<mhs.length; i++){
             if(cari.equals(mhs[i].ipk)){
                 System.out.println("Nama " + mhs[i].namaMahasiswa);
-                System.out.println("NIM " + mhs[i].nim );
+                System.out.println("NIM " + mhs[i].nim);
                 System.out.println("IPK " + mhs[i].ipk);
                 return;
             }
