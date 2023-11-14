@@ -90,8 +90,6 @@ graph.removeEdge(1, 3); Jadi, kesalahannya pada soal bukan pada output.
 
 ### Verifikasi Hasil Percobaan
 
-- Hasil running pada langkah ke-11
-
 <img src="Praktikum2/gambar/Output.png">
 
 
