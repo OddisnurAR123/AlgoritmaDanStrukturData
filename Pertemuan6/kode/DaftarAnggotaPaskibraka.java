@@ -34,7 +34,7 @@ public class DaftarAnggotaPaskibraka {
 
     void selectionSort() {
         for (Paskibraka peserta : listPeserta) {
-            if (peserta != null && peserta.tinggi == 170) {
+            if (peserta != null && peserta.tinggi >= 170) {
                 peserta.tampil();
                 System.out.println("-----------------------------");
             }

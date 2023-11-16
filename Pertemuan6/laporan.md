@@ -309,6 +309,8 @@ Jawab:
 
 <img src="gambar/Hasil MainPaskibrakaModifikasi(3).png">
 
+<img src="gambar/Hasil MainPaskibrakaModifikasi(4).png">
+
 3. Seorang pustakawan hendak mengurutkan buku di dalam almari secara berurutan dari terpendek-tertipis hingga tertinggi-tertebal secara vertikal (berdiri). Buat simulasi pengurutan yang dilakukan oleh pustakawan tersebut dengan mengacu data pada tabel, aturan pengurutan berdasarkan metode program, dan class diagram berikut!
 
 <img src="gambar/Soal Tugas3.png">
