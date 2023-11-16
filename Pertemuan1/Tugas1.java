@@ -1,3 +1,5 @@
+package Pertemuan1;
+
 public class Tugas1 {
     public static void main(String[] args) {
         String[] pelanggan = {"Ani", "Budi", "Bina", "Cita"};

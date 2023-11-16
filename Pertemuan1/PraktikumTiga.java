@@ -1,3 +1,5 @@
+package Pertemuan1;
+
 public class PraktikumTiga {
     public static void main(String[] args) {
         int[][] stokBunga = {

@@ -1,3 +1,5 @@
+package Pertemuan1;
+
 public class PraktikumEmpatA {
     public static void main(String[] args) {
         int n = 9;

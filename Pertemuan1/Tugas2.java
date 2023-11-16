@@ -1,3 +1,5 @@
+package Pertemuan1;
+
 public class Tugas2 {
     public static void main(String[] args) {
         double saldoAwal = 1000000; 

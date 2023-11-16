@@ -7,43 +7,97 @@ Kelas: SIB-2C
 
 # Jobsheet 1
 # Pertanyaan
-## Output praktikum pemilihan:
+## Praktikum pemilihan:
+
+- Kode
+
+<img src="Praktikum1.png">
+
+- Hasil
 
 <img src="Output Pemilihan.png">
 
-## Output praktikum perulangan:
+## Praktikum perulangan:
+
+- Kode
+
+<img src="Praktikum2.png">
+
+- Hasil
 
 <img src="Output Perulangan.png">
 
-## Output praktikum Array:
+## Praktikum Array:
+
+- Kode
+
+<img src="Praktikum3.png">
+
+- Hasil
 
 <img src="Output Array.png">
 
-## Output praktikum Fungsi:
+## Praktikum Fungsi:
 
 A. Konsep Perulangan
+
+- Kode
+
+<img src="Praktikum4(a).png">
+
+- Hasil
 
 <img src="Output Fungsi(perulangan).png">
 
 B. Fungsi Rekursif
+
+- Kode
+
+<img src="Praktikum4(b).png">
+
+- Hasil
 
 <img src="Output Fungsi(rekursif).png">
 
 
 # Tugas
 
-## Output tugas 1:
+## Tugas 1:
+
+- Kode
+
+<img src="Tugas1.png">
+
+- Hasil
 
 <img src="Output Tugas 1.png">
 
-## Output tugas 2:
+## Tugas 2:
+
+- Kode
+
+<img src="Tugas2.png">
+
+- Hasil
 
 <img src="Output Tugas 2.png">
 
-## Output tugas 3:
+## Tugas 3:
+
+- Kode
+
+<img src="Tugas3.png">
+
+- Hasil
 
 <img src="Output Tugas 3.png">
 
-## Output tugas 4:
+## Tugas 4:
+
+- Kode
+
+<img src="Tugas4.png">
+
+- Hasil
 
 <img src="Output Tugas 4.png">
