@@ -1,6 +1,4 @@
 public class Mahasiswa {
-    public static final String nim = null;
-    public static String namaMahasiswa;
     String nama;
     int thnMasuk, umur;
     double ipk;
