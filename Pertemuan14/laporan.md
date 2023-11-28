@@ -26,7 +26,7 @@ Kelas: SIB - 2C
 
 <img src="Praktikum1/gambar/HashTable(Menambahkan data).png">
 
-- Menambahkan data pada kelas HashTableMain kemudian mencetak hasil penambahakn data dengan method printTable().
+- Menambahkan data pada kelas HashTableMain kemudian mencetak hasil penambahan data dengan method printTable().
 
 <img src="Praktikum1/gambar/HashTableMain(Menambahkan data).png">
 
