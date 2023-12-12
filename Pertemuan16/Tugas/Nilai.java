@@ -276,7 +276,7 @@ public class Nilai {
 
                 case 5:
                     System.out.println("====================================================");
-                    System.out.println("       HAPUS DATA MAHASISWA DARI ANTRIAN            ");
+                    System.out.println("                    DAFTAR MAHASISWA                ");
                     System.out.println("====================================================");
                     nilai.hapusMhs();
                     nilai.tampilMhs();
