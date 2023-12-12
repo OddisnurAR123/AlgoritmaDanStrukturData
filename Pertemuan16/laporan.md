@@ -298,4 +298,16 @@ Jawab:
 
 - Menambahkan prosedur hapus data mahasiswa melalui implementasi Queue pada collections pada Kode Class Nilai
 
+<img src="Tugas/gambar/JawabanNo2(1).png">
+
+<img src="Tugas/gambar/JawabanNo2(2).png">
+
+<img src="Tugas/gambar/JawabanNo2(3).png">
+
+<img src="Tugas/gambar/JawabanNo2(4).png">
+
+<img src="Tugas/gambar/JawabanNo2(5).png">
+
 - Hasil
+
+<img src="Tugas/gambar/OutputNo2.png">
