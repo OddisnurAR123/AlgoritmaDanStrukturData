@@ -5,6 +5,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
+import java.util.Queue;
+import java.util.LinkedList;
 
 public class Nilai {
     String kode;
@@ -24,9 +26,11 @@ public class Nilai {
 
     List<Mahasiswa> mhss = new ArrayList<>();
     List<MataKuliah> matkull = new ArrayList<>();
+    Queue<Mahasiswa> mahasiswaQueue = new LinkedList<>();
 
     public void tambahMhs(Mahasiswa... mahasiswa){
         mhss.addAll(Arrays.asList(mahasiswa));
+        mahasiswaQueue.addAll(Arrays.asList(mahasiswa));
     }
 
     public void tambahMatkul(MataKuliah... matkul){
@@ -94,6 +98,17 @@ public class Nilai {
             return 0;
         }
     };
+
+
+    // Implementasi untuk menghapus data mahasiswa dari antrian
+    public void hapusMhs(){
+        if (!mahasiswaQueue.isEmpty()) {
+            Mahasiswa removedMahasiswa = mahasiswaQueue.poll();
+            mhss.removeIf(mahasiswa -> mahasiswa.nim.equals(removedMahasiswa.nim));
+        } else {
+            System.out.println("Antrian mahasiswa sudah kosong. Tidak ada data yang dihapus.");
+        }
+    }    
     
 
     public static void main(String[] args) {
@@ -133,7 +148,8 @@ public class Nilai {
             System.out.println(" 2. Tampil Nilai");
             System.out.println(" 3. Mencari Nilai Mahasiswa");
             System.out.println(" 4. Urut Data Nilai");
-            System.out.println(" 5. Keluar");
+            System.out.println(" 5. Hapus Data Mahasiswa");
+            System.out.println(" 6. Keluar");
             System.out.println("====================================================");
             System.out.print("Pilih\t: ");
             menu = oddis.nextInt();
@@ -259,9 +275,18 @@ public class Nilai {
                 break;
 
                 case 5:
+                    System.out.println("====================================================");
+                    System.out.println("       HAPUS DATA MAHASISWA DARI ANTRIAN            ");
+                    System.out.println("====================================================");
+                    nilai.hapusMhs();
+                    nilai.tampilMhs();
+                    System.out.println("");
+                    break;
+
+                case 6:
                     System.out.println("PROGRAM SELESAI");
                     break;
             }
-        } while (menu < 5 && menu > 0);
+        } while (menu < 6 && menu > 0);
     }
 }
