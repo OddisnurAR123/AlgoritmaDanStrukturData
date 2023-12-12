@@ -5,10 +5,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
-import java.util.LinkedList;
-import java.util.PriorityQueue;
-import java.util.Queue;
-import java.util.Stack;
 
 public class Nilai {
     String kode;
@@ -28,10 +24,7 @@ public class Nilai {
 
     List<Mahasiswa> mhss = new ArrayList<>();
     List<MataKuliah> matkull = new ArrayList<>();
-    Queue<Mahasiswa> m = new LinkedList<>();
-    Queue<MataKuliah> mkul = new LinkedList<>();
-    Queue<Nilai> n = new LinkedList<>();
-    
+
     public void tambahMhs(Mahasiswa... mahasiswa){
         mhss.addAll(Arrays.asList(mahasiswa));
     }
@@ -101,27 +94,12 @@ public class Nilai {
             return 0;
         }
     };
-
-    public void tambahNilai(List<Nilai> nilaiList, Nilai n) {
-        nilaiList.add(n);
-    }
-
-    public void printNilai(){
-        n.stream().forEach(dn -> {
-            System.out.println("" + dn.toString());
-        });
-    }
-
-    public void removeD(){
-        m.remove();
-    }
+    
 
     public static void main(String[] args) {
         Scanner oddis = new Scanner(System.in);
         Scanner oddiss = new Scanner(System.in);
         Scanner oddisss = new Scanner(System.in);
-        Nilai nl = new Nilai();
-        Queue<Nilai> n = new LinkedList<>();
 
         List<Nilai> nill = new ArrayList<>();
         Nilai nilai = new Nilai("", 0, null, null);
@@ -155,8 +133,7 @@ public class Nilai {
             System.out.println(" 2. Tampil Nilai");
             System.out.println(" 3. Mencari Nilai Mahasiswa");
             System.out.println(" 4. Urut Data Nilai");
-            System.out.println(" 5. Hapus Data Mahasiswa");
-            System.out.println(" 6. Keluar");
+            System.out.println(" 5. Keluar");
             System.out.println("====================================================");
             System.out.print("Pilih\t: ");
             menu = oddis.nextInt();
@@ -280,20 +257,11 @@ public class Nilai {
                     }
                     System.out.println("");
                 break;
-                
+
                 case 5:
-                    System.out.println("====================================================");
-                    System.out.println("                    DAFTAR MAHASISWA                ");
-                    System.out.println("====================================================");
-                    nl.removeD();
-                    nl.tampilMhs();
-                    System.out.println("");
-                break;
-  
-                case 6:
                     System.out.println("PROGRAM SELESAI");
                     break;
             }
-        } while (menu < 6 && menu > 0);
+        } while (menu < 5 && menu > 0);
     }
 }
