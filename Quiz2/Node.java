@@ -1,4 +1,4 @@
-package Quiz2.Kode;
+package Quiz2;
 
 public class Node {
     String data;

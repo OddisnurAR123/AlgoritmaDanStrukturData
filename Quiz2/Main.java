@@ -1,4 +1,4 @@
-package Quiz2.Kode;
+package Quiz2;
 
 import java.util.Scanner;
 
