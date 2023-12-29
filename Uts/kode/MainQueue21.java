@@ -52,8 +52,8 @@ public class MainQueue21 {
                     int hargaMakanan = oddis.nextInt();
                     System.out.println("=============================================================================");
 
-                    Pesanan21 pesanan9 = new Pesanan21(1, namaMakanan, hargaMakanan);
-                    Pembeli21 pembeli = new Pembeli21(namaPembeli, noHp, nomorAntrian, pesanan9);
+                    Pesanan21 pesanan = new Pesanan21(1, namaMakanan, hargaMakanan);
+                    Pembeli21 pembeli = new Pembeli21(namaPembeli, noHp, nomorAntrian, pesanan);
                     antrian.enqueue(pembeli);
                     nomorAntrian++;
                     break;
@@ -63,12 +63,15 @@ public class MainQueue21 {
                     System.out.println("=============================================================================");
                     System.out.printf("%-5s%-25s%-15s%n", "| No.", "| Nama Customer", "| No hp");
                     int currentSize = antrian.size;
+                    int totalAntrian = currentSize;
                     while (currentSize > 0) {
                         Pembeli21 p = antrian.dequeue();
                         System.out.printf("%-5d%-25s%-15s%n", p.nomorAntrian, p.namaPembeli, p.NoHp);
                         antrian.enqueue(p);
                         currentSize--;
                     }
+                    System.out.println("===============================================");
+                    System.out.println("Total Antrian: " + totalAntrian);
                     break;
                 case 3:
                     if (antrian.size > 0) {
